@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>SRH Fan Hub - Home</title>
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" />
+</head>
+<body>
+
+  <header>
+    <h1>SRH Fan Hub</h1>
+    <nav>
+      <a href="#about">Why SRH?</a>
+      <a href="#schedule">Schedule</a>
+      <a href="players.html">Players</a>
+      <a href="#news">News</a>
+      <a href="#poll">Poll</a>
+      <a href="#twitter">Tweets</a>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <h2>Welcome to the Official SRH Fan Experience!</h2>
+    <p>Unite for the Orange Army 🔥</p>
+  </section>
+
+  <section id="about">
+    <h2>Why SRH?</h2>
+    <div class="features">
+      <div class="card">
+        <h3>Legacy</h3>
+        <p>Since 2013, SRH has delivered top performances with iconic moments in IPL history.</p>
+      </div>
+      <div class="card">
+        <h3>Captains</h3>
+        <p>Led by legends like David Warner, Kane Williamson, and now Pat Cummins!</p>
+      </div>
+      <div class="card">
+        <h3>Spirit</h3>
+        <p>Fierce, fiery, and passionate. SRH symbolizes rising from the ashes stronger!</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="schedule">
+    <h2>Match Schedule Preview</h2>
+    <ul>
+      <li>SRH vs RCB - April 15 - Hyderabad</li>
+      <li>SRH vs MI - April 20 - Mumbai</li>
+      <li>SRH vs CSK - April 25 - Chennai</li>
+    </ul>
+    <a href="schedule.html" style="color: gold;">View Full Schedule →</a>
+  </section>
+
+  <section id="players">
+    <h2>Star Players</h2>
+    <p>Explore the squad lineup and player stats: <a href="players.html" style="color: gold;">Meet the Players →</a></p>
+  </section>
+
+  <section id="news">
+    <h2>Latest News</h2>
+    <p>Stay updated with SRH buzz and team developments — coming soon!</p>
+  </section>
+
+  <section id="poll">
+    <h2>🔥 Fan Poll: Who's Your Favorite SRH Star?</h2>
+    <form id="pollForm">
+      <label><input type="radio" name="player" value="Klaasen"> Heinrich Klaasen</label><br>
+      <label><input type="radio" name="player" value="Cummins"> Pat Cummins</label><br>
+      <label><input type="radio" name="player" value="Markram"> Aiden Markram</label><br>
+      <label><input type="radio" name="player" value="Abhishek"> Abhishek Sharma</label><br><br>
+      <button type="button" onclick="submitPoll()">Vote</button>
+    </form>
+    <p id="pollResult"></p>
+  </section>
+
+  <section id="twitter">
+    <h2>Live Buzz from SRH Twitter 🐤</h2>
+    <p>Catch all the latest updates, behind-the-scenes moments, and fiery tweets from the Orange Army!</p>
+    <div class="card" style="padding: 1rem; margin-top: 1rem;">
+      <a class="twitter-timeline"
+         data-width="100%"
+         data-height="600"
+         data-theme="dark"
+         data-chrome="noheader nofooter noborders transparent"
+         href="https://twitter.com/SunRisers?ref_src=twsrc%5Etfw">
+         Tweets by @SunRisers
+      </a>
+    </div>
+    <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Sunrisers Hyderabad Fan Hub. Designed with 🏆🧡 for the Orange Army.</p>
+    <div class="social-icons">
+      <a href="#"><i class="fab fa-twitter"></i></a>
+      <a href="#"><i class="fab fa-instagram"></i></a>
+      <a href="#"><i class="fab fa-facebook"></i></a>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
